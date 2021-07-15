@@ -1,61 +1,60 @@
 {
-    "parser": "@typescript-eslint/parser",
-    "extends": [
-      "eslint:recommended",
-      "prettier",
-      "plugin:react/recommended",
-  
-      "plugin:@typescript-eslint/recommended",
-      "plugin:@typescript-eslint/recommended-requiring-type-checking",
-      "plugin:@typescript-eslint/eslint-recommended",
-  
-      "plugin:prettier/recommended"
-    ],
-    "env": {
-      "browser": true,
-      "es6": true
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:react/recommended",
+
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/eslint-recommended",
+
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      },
-      "ecmaVersion": 2018,
-      "sourceType": "module",
-      "project": "tsconfig.json"
-    },
-    "plugins": [
-      "react",
-      "@typescript-eslint",
-      "prettier",
-      "react-hooks",
-      "simple-import-sort",
-      "sort-destructure-keys"
-    ],
-    "rules": {
-      "prettier/prettier": "error",
-      "@typescript-eslint/prefer-optional-chain": "error",
-      "import/no-named-as-default": "off",
-      "simple-import-sort/imports": "error",
-      "@typescript-eslint/member-delimiter-style": [
-        "error",
-        {
-          "multiline": {
-            "delimiter": "none",
-            "requireLast": false
-          },
-          "singleline": {
-            "delimiter": "semi",
-            "requireLast": false
-          }
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": "tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier",
+    "react-hooks",
+    "simple-import-sort",
+    "sort-destructure-keys"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/prefer-optional-chain": "error",
+    "import/no-named-as-default": "off",
+    "simple-import-sort/imports": "error",
+    "@typescript-eslint/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "none",
+          "requireLast": false
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
         }
-      ],
-      "react/no-unescaped-entities": "off",
-      "sort-destructure-keys/sort-destructure-keys": "error"
-    },
-    "settings": {
-      "react": {
-        "version": "detect"
       }
+    ],
+    "react/no-unescaped-entities": "off",
+    "sort-destructure-keys/sort-destructure-keys": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
     }
   }
-  
+}
