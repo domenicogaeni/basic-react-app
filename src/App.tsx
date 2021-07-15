@@ -1,9 +1,11 @@
 import React from 'react'
 
+import { Routing } from './routing/Routing'
+
 const App = (): JSX.Element => {
   return (
     <div>
-      <h1>Ciao</h1>
+      <Routing />
     </div>
   )
 }
