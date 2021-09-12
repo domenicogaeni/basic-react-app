@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# My basic react-app
+
+>This is my setup for react-app.
+
+[![Stars](https://img.shields.io/github/stars/domenicogaeni/basic-react-app.svg)](https://github.com/domenicogaeni/basic-react-app/stargazers)
+[![Forks](https://img.shields.io/github/forks/domenicogaeni/basic-react-app.svg)](https://github.com/domenicogaeni/basic-react-app/network/members)
+[![Issues](https://img.shields.io/github/issues/domenicogaeni/basic-react-app.svg)](https://github.com/domenicogaeni/basic-react-app/issues)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+
+This project was born from the need to have a structured React project and with the basic things that I consider necessary.
+
+## Packages installed
+- [Typescript](https://yarn.pm/typescript)
+- [React-router-dom](https://yarn.pm/react-router-dom)
+- [Axios](https://yarn.pm/axios)
+- [Eslint](https://yarn.pm/eslint)
+- [Prettier](https://yarn.pm/prettier)
+- [Husky](https://yarn.pm/husky)
+- [Styled-components](https://yarn.pm/styled-components)
 
 ## Available Scripts
 
@@ -14,10 +34,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
@@ -26,21 +42,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
